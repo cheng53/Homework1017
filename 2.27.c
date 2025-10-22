@@ -2,8 +2,14 @@
 #include <stdlib.h>
 
 int main() {
-	int x = 0;
-	scanf("%d", &x);
+	int x = 5;
+	
+	printf("    *\n");
+	printf("   ***\n");
+	printf("  *****\n");
+	printf(" *******\n");
+	printf("*********\n");
+
 	for (int i = 0; i < x; i++)
 	{
 		for (int j = x - 1; j > i; j--)

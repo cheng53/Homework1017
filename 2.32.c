@@ -28,5 +28,11 @@ int main() {
 		printf("You are obese.\n");
 	}
 
+	printf("BMI VALUES:\n");
+	printf("Underweight: less than 18.5\n");
+	printf("Normal:      between 18.5 and 24.9\n");
+	printf("Overweight:  between 25 and 29.9\n");
+	printf("Obese:       30 or greater\n");
+
 	return 0;
 }
